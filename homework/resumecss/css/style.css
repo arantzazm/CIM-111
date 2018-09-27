@@ -4,12 +4,13 @@
 
 
 body{
-background-color: blue;
+background-color: cyan;
 font-family: "Noto Serif JP",cursive;
 
-a:hover{
+.links{
        color: pink;
-       text-decoration: underline;
+       text-decoration: none;
+
 
 
 
