@@ -21,3 +21,15 @@ a:hover{
   color: red;
   text-decoration: none;
 }
+
+p{
+
+  line-height: 100px;
+  text-indent: 25px;
+
+}
+
+b {
+font-weight: bold;
+
+}
