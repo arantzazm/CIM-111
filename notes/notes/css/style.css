@@ -1,9 +1,15 @@
-#colorChange{
-  color: peru;
+#changeText{
+  color: pink;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#fontChange{
+  font-family: sans-serif;
 }
 
 .backgroundChange{
-  background-color: red;
+  background-color: blue;
 }
 
 #box{
@@ -16,7 +22,11 @@
   padding-left: 10px;
   padding-right: 10px;
   border-width: 5px;
-  border-style: 
+  border-style: dashed;
+  border-color: red;
+  border-width: 5px 10px 5px 10px;
+  border: solid red 10px;
+
 
 
 }
