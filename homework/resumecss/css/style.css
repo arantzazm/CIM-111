@@ -13,7 +13,8 @@ font-family: "Noto Serif JP",cursive;
 
 h1{
 color: blue;
-font-family: "Indie Flower";
+font-family: "Indie Flower", cursive;
+text-align: left;
 
 }
 
