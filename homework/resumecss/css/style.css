@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 
 
@@ -10,7 +11,13 @@ font-family: "Noto Serif JP",cursive;
 
 }
 
+h1{
+color: blue;
+font-family: "Indie Flower";
+
+}
+
 a:hover{
   color: red;
-  text-decoration: none!important;
+  text-decoration: none;
 }
