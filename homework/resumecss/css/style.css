@@ -6,20 +6,20 @@
 
 
 body{
-background-color: cyan;
+background-color: #FFE4E1;
 font-family: "Noto Serif JP",cursive;
 
 }
 
 h1{
-color: blue;
+color: #40E0D0;
 font-family: "Indie Flower", cursive;
 text-align: left;
 
 }
 
 a:hover{
-  color: red;
+  color: #C71585;
   text-decoration: none;
 }
 
