@@ -8,21 +8,9 @@ body{
 background-color: cyan;
 font-family: "Noto Serif JP",cursive;
 
-.links{
-       color: pink;
-       text-decoration: none;
 }
 
 a:hover{
   color: red;
-  text-decoration: underline;
-
-
-
-
-}
-
-
-
-
+  text-decoration: none;
 }
