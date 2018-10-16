@@ -1,6 +1,7 @@
-{
+*{
   font-family: Arial, Verdana, sans-seriff;
   color: black;
+  text-align: center;
 }
 
 #nav, #feature, .article, #footer
