@@ -236,7 +236,7 @@ padding: 0 .145em;
 
 }
 
-@media (min-width: 60rem)
+@media (min-width: 25rem)
 
 {
 h1{
@@ -247,7 +247,7 @@ margin-top: 0;
 
 .home-about{
 background-image:
-url(https://weheartit.com/entry/321019502?context_page=5&context_query=pride&context_type=search);
+url(../img/lol.jpg);
 background-repeat: no-repeat;
 padding-bottom: 10em;
 
@@ -262,14 +262,14 @@ outline-offset: -3.5em;
 margin-left: -2.5%;
 top: -5em;
 text-align: left;
-box-shadow: 0 0 4em 0 rgba(0,0,0,.3)
+box-shadow: 0 0 4em 0 rgba(0,0,0,.3);
 
 
 
 }
   .home-about-textbox h1{
 top: .75em;
-left:6rem;
+left: 6rem;
 padding: 0 .6em;
 
   }
