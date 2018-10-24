@@ -125,7 +125,7 @@ font-weight: 700;
 }
 
 .button-accent{
-color: pink;
+color: black;
 border-color: #00ff6c;
 
 }
@@ -133,7 +133,7 @@ border-color: #00ff6c;
 .button-accent:hover,
 .button-accent:focus{
 
-  background-color: pink
+  background-color:
   color: black;
 }
 
@@ -220,8 +220,6 @@ outline: 2px solid #00ff6c;
 outline-offset: -2.5em;
 color: #FFF;
 position: relative;
-
-
 
 }
 
