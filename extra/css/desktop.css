@@ -232,7 +232,7 @@ left: 50%;
 transform: translateX(-50%);
 top: .75em;
 background: #232323;
-padding: 0.145em;
+padding: 0 .145em;
 
 }
 
