@@ -225,7 +225,7 @@ position: relative;
 
 }
 
-.home-about-textbox h1{
+.home-about-textbox h1 {
 color: #00ff6c;
 position: absolute;
 left: 50%;
@@ -240,8 +240,9 @@ padding: 0.145em;
 
 {
 h1{
-
-  font-size: 2.5rem;
+font-weight: 300;
+font-size: 2.5rem;
+margin-top: 0;
 }
 
 .home-about{
@@ -253,7 +254,7 @@ padding-bottom: 10em;
 
 }
 
-.home-about-textbook{
+.home-about-textbox{
 
 width: 60%;
 padding: 7em;
@@ -266,8 +267,8 @@ box-shadow: 0 0 4em 0 rgba(0,0,0,.3)
 
 
 }
-  .home-about-textbook h1{
-top: .75 em;
+  .home-about-textbox h1{
+top: .75em;
 left:6rem;
 padding: 0 .6em;
 
