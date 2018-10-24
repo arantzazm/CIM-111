@@ -90,7 +90,7 @@ line-height: 1.6;
   }
 .title{
 
-  font-size: 1em;
+  font-size: 10em;
 }
 
 
@@ -126,6 +126,7 @@ font-weight: 700;
 
 .button-accent{
 color: pink;
+border-color: #00ff6c;
 
 }
 
