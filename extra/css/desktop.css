@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+*
+{
+
+box-sizing: border-box;
+
+}
+body
+{
+margin: 0;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+
+img{
+
+  max-width: 100%;
+  height: auto;
+
+}
+
+.container{
+width: 95%;
+max-width: 70em;
+margin: 0 auto;
+
+
+
+}
+
+h1{
+
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-top: 0;
+
+
+}
+
+p
+
+{
+margin-top: 0;
+line-height: 1.5;
+
+}
+
+p:last-of-type{
+
+margin-bottom: 0;
+
+
+}
+
+
+.title{
+font-size: 2.5rem;
+margin-bottom: 1.5em;
+font-weight: 900;
+margin-top: 1em;
+
+
+
+}
+
+
+title span{
+font-weight: 300;
+display: block;
+font-size: .9em;
+
+
+}
+
+
+@media(min-width: 60rem){
+
+
+
+  p{
+font-size: 1.2rem;
+line-height: 1.6;
+
+  }
+.title{
+
+  font-size: .9em;
+}
+
+
+}
+
+.button{
+
+  display: in-inline block;
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: .5em 1.75em;
+}
+
+@media (min-width: 60rem){
+
+.button  {
+
+  font-size: 1.5rem;
+
+
+  }
+}
+
+.button-small{
+font-size: .7rem;
+font-weight: 700;
+
+
+}
+
+.button-accent{
+color: pink;
+
+}
+
+.button-accent:hover,
+.button-accent:focus{
+
+  background-color: pink
+  color: black;
+}
+
+
+
+header{
+
+position: absolute;
+left:0;
+right: 0;
+  margin:1em ;
+
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+
+nav li{
+display: inline-block;;
+margiin: 1em;
+}
+
+nav a{
+font-weight: 900;
+text-decoration:  none;
+text-transform: uppercase;
+font-size: .8rem;
+padding: .5em;
+background: blue;
+color: white;
+
+}
+
+
+nav a:hover,
+nav a:focus{
+
+  color: grey;
+}
+
+
+@media(min-width: 60rem){
+.logo{
+
+  float: left;
+}
+nav{
+  float: right;
+}
+}
+
+home-hero{
+background-image: url(https://weheartit.com/entry/321058174?context_page=3&context_query=pride&context_type=search);
+padding: 10em 0;
+color: white;
+background-size:  cover;
+background-position: center;
+
+}
+
+@media (min-width 60rem){
+.home-hero{
+height: 100vh;
+padding-top: 35vh;
+
+
+}
+
+
+}
+
+
+.home-about-textbook{
+background-color: white;
+padding: 4em;
+width: 100vw;
+margin-left: -2.5%;
+outline: 29px solid #00ff6c;
+outline-offset: -2.5em;
+color: #FFF;
+position: relative;
+
+
+
+}
+
+.home-about-textbook h1{
+color: #00ff6c;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+top: .75em;
+background: #232323;
+padding: 0.145em;
+
+}
+
+@media (min-width: 60rem)
+
+{
+h1{
+
+  font-size: 2.5rem;
+}
+
+.home-about{
+background-image:
+url(https://weheartit.com/entry/321019502?context_page=5&context_query=pride&context_type=search);
+background-repeat: no-repeat;
+padding-bottom: 10em;
+
+
+}
+
+.home-about-textbook{
+
+width: 60%;
+padding: 7em;
+outline-offset: -3.5em;
+margin-left: -2.5%;
+top: -5em;
+text-align: left;
+box-shadow: 0 0 4em 0 rgba(0,0,0,.3)
+
+
+
+}
+  .home-about-textbook h1{
+top: .75 em;
+left:6rem;
+padding: 0 .6em;
+
+  }
+}
+
+.portfolio{
+margin: 3em 0;
+
+
+}
+
+.port-item{
+
+  margin:0;
+  position: relative;
+}
+
+.port-item img{
+
+
+}
+
+.port-desc{
+  position: absolute;
+  z-index 100;
+  bottom: 2em;
+  left: 3em;
+  right: 3em;
+  color: white;
+  background-color: rgba(0,0,0,.75)
+  padding: 1em;
+  padding-bottom: 1em;
+  padding-top: .5em
+
+
+}
+
+.port-desc p{
+margin: 1em;
+
+}
