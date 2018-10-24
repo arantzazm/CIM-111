@@ -226,11 +226,11 @@ position: relative;
 .home-about-textbox h1 {
 color: #00ff6c;
 position: absolute;
-left: 20%;
+left: 50%;
 transform: translateX(-50%);
 top: .75em;
 background: #232323;
-padding: 0 .145em;
+padding: 0 ;
 
 }
 
@@ -245,7 +245,7 @@ margin-top: 0;
 
 .home-about{
 background-image:
-url(../img/headerrrr.jpg);
+url(../img/headerrr.jpg);
 background-repeat: no-repeat;
 padding-bottom: 10em;
 
