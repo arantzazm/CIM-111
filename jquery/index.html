@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Intro to javascript/jquery</title>
+    <title>How To Make Chocolate Chips Cookies</title>
 
     <style>
       .box{
@@ -14,7 +14,7 @@
   </head>
   <body>
 
-    <h1 id="changeText">Intro to javascript</h1>
+    <h1 id="changeText"> How To Make Chocolate Chips Cookies</h1>
 
     <h2 id="info">Mouse over to see more info</h2>
     <div id="recepticle"></div>
@@ -48,12 +48,12 @@
       $(document).ready(function(){
           //All code should be placed below
           $(".box").hide();
-          $("body").css("background-color", "pink");
-          $("h1").css("color", "midnightblue");
+          $("body").css("background-color", "#e0e0e0");
+          $("h1").css("color", "#e0e0e0");
           $("#changeText").css("font-size", "40px");
-          $("#changeText").html("I love javascript!!!!");
+          $("#changeText").html("How To Make Chocolate Chips Cookies");
           $("#changeText").click(function(){
-            $("body").css("background-color", "yellow");
+            $("body").css("background-color", "mistyRose");
           });//end of change text click
             $("#info").mouseenter(function(){
               $("#recepticle").html("<em>This information is important</em>");
