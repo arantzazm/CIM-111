@@ -174,8 +174,11 @@
 
     $("#info").mouseenter(function(){
       $("#recepticle").html("<em>This recipe was taken off from Buzzfeed videos.</em>");
-      $("#info").css("background-color", "blue");
-    });
+      $("#info").css("background-color", "pink");
+    });  $("#info").mouseleave(function(){
+        $("#recepticle").html("");
+        $("#info").css("background-color", "transparent");
+      });
     });
 
     </script>
