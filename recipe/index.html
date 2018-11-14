@@ -17,12 +17,7 @@
 
 <img src="img/Logo.png" alt="Self Love.logo" class="logo">
 
-<nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="lgbt.html">LGBT</a></li>
-  </ul>
-</nav>
+
 
 </header>
 
@@ -33,7 +28,6 @@
     <span>chocolate chip cookies. </span>
   </h1>
 
-  <a href="lgbt.html" class="button button-accent">Go to Blog </a>
   </div>
 </section>
 <div class="container">
@@ -49,7 +43,9 @@
 </div>
 
 <sec class="portfolio">
-  <h1>Some of our inspirational images & blog topics.</h1>
+
+  <h2 id="info">Click here for more information about the recipe.</h2>
+  <div id="recepticle"></div>
 
   <figure class="port-item">
       <img src="images/ingredientes1.jpg" alt="portfolio item">
@@ -157,10 +153,8 @@
 <section class="action">
   <div class="container">
 
-  <h1 class="title cta-title"> You are loved. You are beautiful. You are important.</span>
+  <h1 class="title cta-title">Enjoy your cookies!</span>
   </h1>
-
-  <a href="" class="button button-dark">Go to Blog </a>
   </div>
 
 
@@ -168,6 +162,23 @@
 
   </ul>
 </div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- Absolute Remote -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+  //Write a comment
+  //Start of script
+  $(document).ready(function(){
+
+    $("#info").mouseenter(function(){
+      $("#recepticle").html("<em>This recipe was taken off from Buzzfeed videos.</em>");
+      $("#info").css("background-color", "blue");
+    });
+    });
+
+    </script>
 
 
 </footer>
