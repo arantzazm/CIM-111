@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
-
 *
 {
 
@@ -209,14 +207,14 @@ font-weight: 700;
 
 .button-accent{
 color: black;
-border-color: #00ff6c;
+border-color: #ff3399;
 
 }
 
 .button-accent:hover,
 .button-accent:focus{
 
-  background-color:#00ff6c
+  background-color:#ff3399;
   color: black;
 }
 
@@ -230,7 +228,7 @@ border-color: black;
 .button-accent:focus{
 
   background-color:black;
-  color: #00ff6c;
+  color: #ff3399;
 }
 
 
@@ -289,7 +287,7 @@ nav{
 }
 
 .home-hero{
-background-image: url(../img/hola.jpg);
+background-image: url(../img/header1.jpg);
 padding: 10em 0;
 color: white;
 background-size:  cover;
@@ -314,7 +312,7 @@ background-color: #232323;
 padding: 4em;
 width: 100vw;
 margin-left: -2.5%;
-outline: 2px solid #00ff6c;
+outline: 2px solid #ff3399;
 outline-offset: -2.5em;
 color: #FFF;
 position: relative;
@@ -322,7 +320,7 @@ position: relative;
 }
 
 .home-about-textbox h1 {
-color: #00ff6c;
+color: #ff3399;
 position: absolute;
 left: 50%;
 transform: translateX(-50%);
@@ -435,7 +433,7 @@ transform: translateY(0%);
 
 .cta{
 
-  background-color: #00ff6c;
+  background-color: #ff3399;
   padding: 6em 0;
 
 }
