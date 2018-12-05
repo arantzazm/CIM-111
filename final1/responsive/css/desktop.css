@@ -208,7 +208,7 @@ font-weight: 700;
 }
 
 .button-accent{
-color: black;
+color: #884dff;
 border-color: #ff0088;
 
 }
@@ -217,7 +217,7 @@ border-color: #ff0088;
 .button-accent:focus{
 
   background-color:#ff66b3
-  color: #884dff;
+  color: black;
 }
 
 .button-dark{
