@@ -324,7 +324,7 @@ position: relative;
 .home-about-textbox h1 {
 color: #ff0088;
 position: absolute;
-left: 40%;
+left: 80%;
 transform: translateX(-50%);
 top: .75em;
 background: #232323;
