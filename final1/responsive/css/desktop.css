@@ -216,7 +216,7 @@ border-color: #ff0088;
 .button-accent:hover,
 .button-accent:focus{
 
-  background-color:#ff0088
+  background-color:#ff66b3
   color: black;
 }
 
@@ -230,7 +230,7 @@ border-color: black;
 .button-accent:focus{
 
   background-color:black;
-  color: #ff0088;
+  color: #ff66b3;
 }
 
 
@@ -314,7 +314,7 @@ background-color: #232323;
 padding: 4em;
 width: 100vw;
 margin-left: -2.5%;
-outline: 2px solid #ff0088;
+outline: 2px solid #ff66b3;
 outline-offset: -2.5em;
 color: #FFF;
 position: relative;
@@ -322,7 +322,7 @@ position: relative;
 }
 
 .home-about-textbox h1 {
-color: #ff0088;
+color: #ff66b3;
 position: absolute;
 left: 80%;
 transform: translateX(-50%);
@@ -435,7 +435,7 @@ transform: translateY(0%);
 
 .cta{
 
-  background-color: #ff0088;
+  background-color: #ff66b3;
   padding: 6em 0;
 
 }
@@ -445,7 +445,7 @@ transform: translateY(0%);
 footer{
 
   background: pink;
-color: #fff;
+color: #ff66b3;
 text-align: left;
 padding: 5em 0;
 
