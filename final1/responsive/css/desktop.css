@@ -209,14 +209,14 @@ font-weight: 700;
 
 .button-accent{
 color: black;
-border-color: #00ff6c;
+border-color: #ff0088;
 
 }
 
 .button-accent:hover,
 .button-accent:focus{
 
-  background-color:#00ff6c
+  background-color:#ff0088
   color: black;
 }
 
@@ -230,7 +230,7 @@ border-color: black;
 .button-accent:focus{
 
   background-color:black;
-  color: #00ff6c;
+  color: #ff0088;
 }
 
 
@@ -314,7 +314,7 @@ background-color: #232323;
 padding: 4em;
 width: 100vw;
 margin-left: -2.5%;
-outline: 2px solid #00ff6c;
+outline: 2px solid #ff0088;
 outline-offset: -2.5em;
 color: #FFF;
 position: relative;
@@ -322,7 +322,7 @@ position: relative;
 }
 
 .home-about-textbox h1 {
-color: #00ff6c;
+color: #ff0088;
 position: absolute;
 left: 50%;
 transform: translateX(-50%);
@@ -435,7 +435,7 @@ transform: translateY(0%);
 
 .cta{
 
-  background-color: #00ff6c;
+  background-color: #ff0088;
   padding: 6em 0;
 
 }
