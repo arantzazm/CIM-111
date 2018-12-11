@@ -50,7 +50,8 @@
 </div>
 
 <sec class="portfolio">
-  <h1>My Videos.</h1>
+  <h2 id="info">My Videos.</h2>
+  <div id="recepticle"></div>
 
   <figure class="port-item">
       <img src="img/proud.png" alt="portfolio item">
@@ -102,6 +103,34 @@
 
   </ul>
 </div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- Absolute Remote -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+  $(document).ready(function(){
+
+    $(".box").hide();
+    $("body").css("background-color", "#e0e0e0");
+    $("h1").css("color", "#e0e0e0");
+    $("#changeText").css("font-size", "40px");
+    $("#changeText").html("You are loved.You are beautiful.You are important.");
+    $("#changeText").click(function(){
+      $("body").css("background-color", "mistyRose");
+    });
+
+    $("#info").mouseenter(function(){
+      $("#recepticle").html("<em>Click on Buttons to redirect to Youtube channel.</em>");
+      $("#info").css("background-color", "pink");
+    });  $("#info").mouseleave(function(){
+        $("#recepticle").html("");
+        $("#info").css("background-color", "transparent");
+      });
+    });
+
+    </script>
 
 
 </footer>
