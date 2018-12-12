@@ -289,8 +289,13 @@ nav{
 }
 
 .home-area{
-background: ;
-height:
+background: url(../img/Thailand.jpg);
+height:100vh;
+width: 100%;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center center;
+
 
 
 }
