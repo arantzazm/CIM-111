@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intitial-scale=1">
+<title> Our Struggle </title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+
+</head>
+
+<body>
+  <header>
+
+<img src="" alt="" class="logo">
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="lgbt.html">About Me</a></li>
+  </ul>
+</nav>
+
+</header>
+
+<section class="home-hero">
+  <div class="container">
+
+  <h1 class="title"> Every story is a story worth telling. </span>
+  </h1>
+
+  <a href="lgbt.html" class="button button-accent"> About Me </a>
+  </div>
+</section>
+<div class="container">
+
+<section class="home-about">
+  <div class="home-about-textbox">
+    <h1>About Me</h1>
+      <p> You might me asking why I care so much about people telling their story. I
+       am surrounded by friends who are part of the LGBT community like me and
+      growing up sometimes we might feel lonely and like if no one understands us and our story. For me
+    it is very important people feel like someone cares because I needed that when I was young.  </p>
+  </div>
+</section>
+
+</div>
+
+<sec class="portfolio">
+  <h2 id="info">My Videos.</h2>
+  <div id="recepticle"></div>
+
+  <figure class="port-item">
+      <img src="img/proud.png" alt="portfolio item">
+      <figcaption class="port-desc">
+        <p>Coming Out Tips</p>
+        <a href="https://www.youtube.com/watch?v=eDZ4kg_crIs&t=159s" class="button button-accent button-small">Go To Video</a>
+      </figcaption>
+  </figure>
+
+  <figure class="port-item">
+      <img src="img/trans.png" alt="portfolio item">
+      <figcaption class="port-desc">
+        <p>LGBT Concepts</p>
+        <a href="https://www.youtube.com/watch?v=LK4A7-Ndz_k" class="button button-accent button-small">Go To Video</a>
+      </figcaption>
+  </figure>
+
+  <figure class="port-item">
+      <img src="img/nonbinary.jpg" alt="portfolio item">
+      <figcaption class="port-desc">
+        <p>Self-esteem</p>
+        <a href="https://www.youtube.com/watch?v=Oli0o1WQsY0" class="button button-accent button-small">Go To Video</a>
+      </figcaption>
+  </figure>
+
+
+
+
+
+
+
+
+
+</section>
+
+<footer>
+
+<section class="action">
+  <div class="container">
+
+  <h1 class="title cta-title"> You are loved. You are important.</span>
+  </h1>
+
+  <a href="" class="button button-dark">Go to Blog </a>
+  </div>
+
+
+
+
+  </ul>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- Absolute Remote -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+  $(document).ready(function(){
+
+    $(".box").hide();
+    $("body").css("background-color", "#e0e0e0");
+    $("h1").css("color", "#e0e0e0");
+    $("#changeText").css("font-size", "40px");
+    $("#changeText").html("You are loved.You are beautiful.You are important.");
+    $("#changeText").click(function(){
+      $("body").css("background-color", "mistyRose");
+    });
+
+    $("#info").mouseenter(function(){
+      $("#recepticle").html("<em>Click on Buttons to redirect to Youtube channel.</em>");
+      $("#info").css("background-color", "pink");
+    });  $("#info").mouseleave(function(){
+        $("#recepticle").html("");
+        $("#info").css("background-color", "transparent");
+      });
+    });
+
+    </script>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
