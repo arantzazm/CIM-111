@@ -13,7 +13,7 @@
 
 
 
-<title> Our Struggle </title>
+<title> Thailand </title>
 
   <link rel="stylesheet" href="css/desktop.css" type="text/css">
 
@@ -27,14 +27,6 @@
       <script src ="js/particles.js"> </script>
       <script src ="js/app.js"> </script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113467773-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-113467773-2');
 
 
 </script>
@@ -45,8 +37,8 @@
 
 <nav>
   <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="lgbt.html">About Me</a></li>
+    <li><a href="index.html">Home&Landmarks</a></li>
+    <li><a href="lgbt.html">Locations</a></li>
   </ul>
 </nav>
 
@@ -59,33 +51,35 @@
 
 
 
-  <h1 class="title"> Every story is a story worth telling. </span>
+  <h1 class="title"> Dream vacation. </span>
   </h1>
 
-  <a href="lgbt.html" class="button button-accent"> About Me </a>
+  <a href="lgbt.html" class="button button-accent"> Thailand Home </a>
   </div>
 </section>
 <div class="container">
 
 <section class="home-about">
   <div class="home-about-textbox">
-    <h1>About</h1>
-      <p>This project is called Our Struggle because this project is about
-      the coming out stories of different people from different backgrounds and
-    as a society, it is a struggle we all have . </p>
+    <h1>Why Thailand</h1>
+      <p>Thailand is a beautiful place that I have always heard about whenever
+       I talk to people from different places. My mom has hone to Thailand a couple of sometimes
+      and she always comes back with the biggest smile on her face.</p>
   </div>
 </section>
 
 </div>
 
 <sec class="portfolio">
-  <h1>The Stories.</h1>
+  <h2 id="info">Landmarks.</h2>
+  <div id="recepticle"></div>
 
   <figure class="port-item">
       <img src="img/Gorrito.png" alt="portfolio item">
       <figcaption class="port-desc">
         <p>Maria</p>
-        <a href="Gorrito.html" class="button button-accent button-small">Her Story</a>
+        <p> Heat oven to 350 degrees Fahrenheit.
+          Mix bread flour, all-purpose flour,salt and baking soda.Set this to the side.</p>
       </figcaption>
   </figure>
 
@@ -93,7 +87,8 @@
       <img src="img/Val.png" alt="portfolio item">
       <figcaption class="port-desc">
         <p>Val</p>
-        <a href="Val.html" class="button button-accent button-small">Her Story</a>
+        <p> Heat oven to 350 degrees Fahrenheit.
+          Mix bread flour, all-purpose flour,salt and baking soda.Set this to the side.</p>
       </figcaption>
   </figure>
 
@@ -101,7 +96,8 @@
       <img src="img/pixie.png" alt="portfolio item">
       <figcaption class="port-desc">
         <p>Kate</p>
-        <a href="pixie.html" class="button button-accent button-small">Her Story</a>
+        <p> Heat oven to 350 degrees Fahrenheit.
+          Mix bread flour, all-purpose flour,salt and baking soda.Set this to the side.</p>
       </figcaption>
   </figure>
 
@@ -109,7 +105,8 @@
       <img src="img/Jane.png" alt="portfolio item">
       <figcaption class="port-desc">
         <p>Jane</p>
-        <a href="Jane.html" class="button button-accent button-small">Her Story</a>
+        <p> Heat oven to 350 degrees Fahrenheit.
+          Mix bread flour, all-purpose flour,salt and baking soda.Set this to the side.</p>
       </figcaption>
   </figure>
 
@@ -119,7 +116,8 @@
       <img src="img/Pinky.png" alt="portfolio item">
       <figcaption class="port-desc">
         <p>Stefy</p>
-        <a href="pinky.html" class="button button-accent button-small">Her Story</a>
+        <p> Heat oven to 350 degrees Fahrenheit.
+          Mix bread flour, all-purpose flour,salt and baking soda.Set this to the side.</p>
       </figcaption>
   </figure>
 
@@ -127,7 +125,8 @@
       <img src="img/Mel.png" alt="portfolio item">
       <figcaption class="port-desc">
         <p>Mel</p>
-        <a href="Mel.html" class="button button-accent button-small">Her Story</a>
+        <p> Heat oven to 350 degrees Fahrenheit.
+          Mix bread flour, all-purpose flour,salt and baking soda.Set this to the side.</p>
       </figcaption>
   </figure>
 
@@ -157,7 +156,33 @@
   </ul>
 </div>
 
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- Absolute Remote -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+<script>
+
+  $(document).ready(function(){
+
+    $(".box").hide();
+    $("body").css("background-color", "#e0e0e0");
+    $("h1").css("color", "#e0e0e0");
+    $("#changeText").css("font-size", "40px");
+    $("#changeText").html("Beautiful places in the world!");
+    $("#changeText").click(function(){
+      $("body").css("background-color", "mistyRose");
+    });
+
+    $("#info").mouseenter(function(){
+      $("#recepticle").html("<em>Landmarks, sightseeing areas, or restaurants links.</em>");
+      $("#info").css("background-color", "pink");
+    });  $("#info").mouseleave(function(){
+        $("#recepticle").html("");
+        $("#info").css("background-color", "transparent");
+      });
+    });
+
+    </script>
 </footer>
 
 
